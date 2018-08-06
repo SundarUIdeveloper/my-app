@@ -1,0 +1,13 @@
+<form class="flex-container">
+    <h1>My Notes</h1>
+    <strong class='error-message' *ngIf="submitMessage">{{submitMessage}}</strong>
+    <mat-form-field>
+        <label>Username:</label>
+        <input matInput class="username" [formControl]='username'>
+    </mat-form-field>
+    <mat-form-field>
+        <label>Password:</label>
+        <input class="password" matInput type='password' [formControl]='password'>
+    </mat-form-field>
+    <button type="submit" mat-button (click)="loginSubmit()">Submit</button>
+</form>

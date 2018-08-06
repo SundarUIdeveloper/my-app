@@ -1,0 +1,10 @@
+.mat-expansion-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-form {
+    display: flex;
+    flex-direction: column;
+    width: 35%
+}

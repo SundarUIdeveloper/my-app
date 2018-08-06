@@ -1,0 +1,20 @@
+<label class="error-message">{{ errMessage }}</label>   
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            <h3>Take a note</h3>
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="example-form">
+        <mat-form-field>
+            <label>Title</label>
+            <input matInput name="title" [(ngModel)]='note.title'>
+        </mat-form-field>
+
+        <mat-form-field>
+            <label>Text</label>
+            <textarea matInput name="text" [(ngModel)]='note.text'></textarea>
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="addNotes()">Done</button>
+    </div>
+</mat-expansion-panel>

@@ -1,0 +1,11 @@
+.list-container {
+    display: flex;
+    flex-flow:  row wrap;
+}
+
+label {
+    text-align: start;
+    font-size: 20px;
+    font-style: italic;
+    display: block;
+}

@@ -1,0 +1,6 @@
+<mat-toolbar color="primary">Notes List
+	<div class="toggle-view">
+		<i *ngIf="isNoteView" class="material-icons switchToListView" (click)="isNoteView = false; toggleView()">View Notes Status</i>
+		<i *ngIf="!isNoteView" class="material-icons switchToNoteView" (click)="isNoteView = true;toggleView()">View Notes List</i>
+	</div>
+</mat-toolbar>

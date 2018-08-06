@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Angular Task",
+      "text": "Shall do at 6 pm",
+      "state": "started"
+    },
+    {
+      "id": 2,
+      "title": "React Task",
+      "text": "Try initiating the react app with quickstart if any.",
+      "state": "not-started"
+    },
+    {
+      "id": 3,
+      "title": "Generic E2E Architecture",
+      "text": "Try to depict a general E2E flow of data from backend to frontend",
+      "state": "completed"
+    }
+  ]
+}
